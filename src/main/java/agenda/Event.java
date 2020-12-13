@@ -33,6 +33,13 @@ public class Event {
         this.myDuration = duration;
     }
 
+    @Override
+    public String toString() {
+        return "Event{" + "myTitle=" + myTitle + ", myStart=" + myStart + ", myDuration=" + myDuration + '}';
+    }
+    
+    
+
     /**
      * Tests if an event occurs on a given day
      *
